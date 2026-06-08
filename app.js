@@ -19,7 +19,7 @@ searchInput.addEventListener("keypress", (e) => {
     }
 });
 
-// Cart functionality
+// Cart-functionality
 let cartCount = 0;
 const cart = document.querySelector(".nav-cart");
 
@@ -58,7 +58,7 @@ backToTop.addEventListener("click", () => {
     });
 });
 
-// Hero message link
+// Hero-message link
 const heroLink = document.querySelector(".hero-msg a");
 
 heroLink.addEventListener("click", () => {
