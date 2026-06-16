@@ -6,7 +6,7 @@ const searchBtn = document.querySelector(".search-icon");
 searchBtn.addEventListener("click", () => {
     let searchText = searchInput.value.trim();
 
-    if (searchText === "") {
+    if (searchText === " ") {
         alert("Please enter something to search.");
     } else {
         alert("Searching for: " + searchText);
